@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WhatProgrammingLanguage</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+  <script defer src="script.js"></script>
+<body>
+  
+  <section id="home">
+    <div class="hidden">
+      <div class="hidden child">
+        <h1>Wondering what language <br /> to use for your project?
+        <br />Take the quiz now
+        </h1>
+      </div>
+      <div class="hidden child">
+        <p>What project?</p> 
+      </div>
+    </div>
+  </section>
+  
+<section id="questions">
+  <div id="question1">
+    <!-- Display the question -->
+    <h2>What project are you programming?</h2>
+    <!-- Create buttons for each answer option -->
+    <button type="button" data-answer="game">Video Games</button>
+    <button type="button" data-answer="web">Websites/Web Apps</button>
+    <button type="button" data-answer="mobile">Mobile Apps</button>
+    <button type="button" data-answer="desktop">Desktop Apps</button>
+    <button type="button" data-answer="hardware">Hardware</button>
+  </div>
+
+  
+  <!-- Repeat the same structure for each additional question -->
+  <div id="question2">
+    <h2>Question 2</h2>
+    <button type="button" data-answer="option1">Option 1</button>
+    <button type="button" data-answer="option2">Option 2</button>
+    <button type="button" data-answer="option3">Option 3</button>
+    <button type="button" data-answer="option4">Option 4</button>
+  </div>
+
+  
+  <!-- Add a submit button to submit the quiz -->
+  <button id="submit" type="button">Submit Quiz</button>
+</section>
+
+  
+<section id="answers">
+  <div class="answer">
+    <h2 id="score">Your Score: 0</h2>
+  </div>
+</section>
+
+
+</body>
+</html>
